@@ -1,7 +1,7 @@
 import shoppingListImg from "./assets/project-4.png";
 import rectangleImg from "./assets/project-3.png";
 import menuImg from "./assets/project-2.png";
-import newsIkg from "./assets/project-1.png";
+import newsImg from "./assets/project-1.png";
 import malwareImg from "./assets/malware.png";
 
 export const CORE_CONCEPTS = [
@@ -30,7 +30,7 @@ export const CORE_CONCEPTS = [
       "https://github.com/yigitcanserfice/2D-Rectangle-Problem/tree/master",
   },
   {
-    image: newsIkg,
+    image: newsImg,
     title: "News Categorization And Sentiment Analysis",
     description:
       "It focuses on categorizing Turkish newspaper news, evaluating the comments on the news with sentiment analysis and determining the best model design using artificial neural networks.",
