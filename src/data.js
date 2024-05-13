@@ -10,7 +10,7 @@ export const CORE_CONCEPTS = [
     title: "Shopping List",
     description:
       "A shopping list program I developed while learning React and firebase. In this program, firebase was used for user registration, login and creating user-specific shopping lists.  ",
-    sourceLink: "https://github.com/yigitcanserfice/shopping_list",
+    sourceLink: "https://github.com/yigitcanserfice/shopping_list/",
     liveLink: "https://shopping-list-ys.vercel.app/",
   },
   {
