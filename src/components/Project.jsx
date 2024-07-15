@@ -6,15 +6,17 @@ export default function Project({
   description,
   liveLink,
   sourceLink,
+  youtubeLink,
 }) {
   const style = {
-    a: " py-2 px-5 bg-transparent border border-blue-300  text-blue-300 hover:text-slate-100 hover:bg-slate-950  transition-all transform duration-300  font-semibold text-lg text-center ",
+    a: " py-2 px-5 bg-transparent border border-blue-300  text-blue-300 hover:text-slate-100 hover:bg-slate-950  transition-all transform duration-300  font-semibold text-lg text-centerr",
     b: " bottom-0 py-2 px-5 bg-transparent border border-blue-300  text-blue-300 hover:text-slate-100 hover:bg-slate-950  transition-all transform duration-300  font-semibold text-lg text-center hidden",
   };
 
   // Kontrol eklendi
   const linkStyle = liveLink ? style.a : style.b;
   const sourceStyle = sourceLink ? style.a : style.b;
+  const youtubeStyle = youtubeLink ? style.a : style.b;
 
   return (
     <li className=" w-96 text-center bg-slate-100 flex flex-col items-center  p-5 rounded shadow-lg gap-4 ">
@@ -31,6 +33,9 @@ export default function Project({
       <div className="flex gap-5">
         <a target="_blank" href={sourceLink} className={sourceStyle}>
           Source Code
+        </a>
+        <a target="_blank" href={youtubeLink} className={youtubeStyle}>
+          Youtube
         </a>
 
         <a target="_blank" href={liveLink} className={linkStyle}>

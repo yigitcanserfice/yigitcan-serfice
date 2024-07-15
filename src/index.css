@@ -11,16 +11,14 @@
 body {
   color: #fff;
   /*background-color: #060417;*/
-}
-main {
-  margin: auto;
+  height: 100%;
 }
 
 @layer base {
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth max-[800px]:overflow-x-hidden;
   }
   body {
-    @apply bg-slate-950;
+    @apply bg-slate-950 max-[800px]:overflow-x-hidden;
   }
 }

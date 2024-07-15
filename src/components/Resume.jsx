@@ -21,9 +21,12 @@ export default function Resume() {
             >
               Balıkesir University
             </a>
-            <p>2020 - 2024*</p>
+            <p>2020 - 2024</p>
           </div>
-          <p className=" mx-auto">3.30 / 4 GPA</p>
+          <div className="flex gap-5">
+            <p className=" mx-auto">3.28 / 4 GPA</p>
+            <p className=" mx-auto">Second Highest Ranked</p>
+          </div>
         </div>
         <p className="p-5 text-xl font-light text-slate-100">
           I am currently enrolled in a Bachelor's program for Computer

@@ -10,15 +10,15 @@ export const CORE_CONCEPTS = [
     title: "Shopping List",
     description:
       "A shopping list program I developed while learning React and firebase. In this program, firebase was used for user registration, login and creating user-specific shopping lists.  ",
-    sourceLink: "https://github.com/yigitcanserfice/shopping-list",
     liveLink: "https://shopping-list-ys.vercel.app/",
+    youtubeLink: "https://www.youtube.com/watch?v=lqUR2WKiBmo",
   },
   {
     image: menuImg,
-    title: "Restaurant Menu (in Progress)",
+    title: "Restaurant QR Menu",
     description:
       "A program that allows changes to be made on the menu using the admin panel for the menu used in restaurants.",
-    sourceLink: "https://github.com/yigitcanserfice/qr-menu-bitirme",
+
     liveLink: "https://qr-menu-bitirme.vercel.app/",
   },
   {

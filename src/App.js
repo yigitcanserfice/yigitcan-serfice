@@ -11,7 +11,6 @@ function App() {
       <header>
         <Navbar></Navbar>
       </header>
-
       <main>
         <Home />
         <AboutMe />
@@ -19,7 +18,7 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      <footer>
+      <footer className="w-full overflow-y-hidden">
         <Footer />
       </footer>
     </div>

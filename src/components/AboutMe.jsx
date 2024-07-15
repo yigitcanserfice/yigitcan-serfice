@@ -14,19 +14,22 @@ export default function AboutMe() {
           About <span className="text-blue-300">Me</span>
         </h1>
         <p className="p-5 text-xl font-light text-slate-100">
-          I am a fourth-year computer engineering student at Balıkesir
-          University, primarily focused on front-end development. I have
-          intermediate-level proficiency in utilizing technologies such as HTML,
-          CSS, JavaScript, ReactJS, SQL Server, and Tailwind CSS. However, my
-          skills in C#, Python, and Android Studio are at an entry-level.
+          I am a fourth-year computer engineeringstudent at Balıkesir
+          University, where Icompleted my coursework as thesecond-highest ranked
+          student in myclass. Although I have not yet officiallygraduated due to
+          incomplete internships,my primary focus is on front-enddevelopment. I
+          have intermediate-levelproficiency in utilizing technologies suchas
+          HTML, CSS, JavaScript, ReactJS, SQLServer, and Tailwind CSS.
+          Additionally, Ihave entry-level skills in C#, Python, andAndroid
+          Studio.
         </p>
         <div className="flex gap-5 flex-col sm:flex-row">
           <a href="#resume" className={style.a}>
             View Education
           </a>
           <a
-            href="yigitcan-serfice-cv.pdf"
-            download="yigitcan-serfice-cv.pdf"
+            href="cv_yigitcan_serfice.pdf"
+            download="cv_yigitcan_serfice.pdf"
             className={style.a}
           >
             Dowland CV
