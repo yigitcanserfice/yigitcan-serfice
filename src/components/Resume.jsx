@@ -29,11 +29,12 @@ export default function Resume() {
           </div>
         </div>
         <p className="p-5 text-xl font-light text-slate-100">
-          I am currently enrolled in a Bachelor's program for Computer
-          Engineering, where I am immersed in a comprehensive curriculum. My
-          studies encompass a diverse range of technical subjects, equipping me
-          with essential skills for developing cutting-edge technology solutions
-          in today's dynamic environment.
+          Balıkesir University
+            B.Sc. in Computer Engineering (2019 – 2023)
+
+            GPA: 3.27 / 4.00, Ranked 2nd in class
+
+            Relevant Coursework: Web Programming, Data Structures, Databases, Software Engineering
         </p>
         <a href="#projects" className={style.a}>
           View Projects
