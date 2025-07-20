@@ -14,14 +14,19 @@ export default function AboutMe() {
           About <span className="text-blue-300">Me</span>
         </h1>
         <p className="p-5 text-xl font-light text-slate-100">
-          I am a fourth-year computer engineeringstudent at Balıkesir
-          University, where Icompleted my coursework as thesecond-highest ranked
-          student in myclass. Although I have not yet officiallygraduated due to
-          incomplete internships,my primary focus is on front-enddevelopment. I
-          have intermediate-levelproficiency in utilizing technologies suchas
-          HTML, CSS, JavaScript, ReactJS, SQLServer, and Tailwind CSS.
-          Additionally, Ihave entry-level skills in C#, Python, andAndroid
-          Studio.
+          I am a Computer Engineering graduate from Balıkesir University,
+          ranking second in my class with a GPA of 3.27. I have a strong passion
+          for software development, focusing on front-end and full-stack web
+          applications.
+          Throughout my academic and project-based experiences, I have gained
+          expertise in ReactJS, JavaScript, Node.js, MySQL, Python and Firebase. I
+          have developed multiple real-time data-driven applications using
+          WebSockets and cloud services.
+          I enjoy problem-solving, optimizing algorithms, and designing scalable
+          web applications. I am highly adaptable, eager to learn new
+          technologies, and experienced in team collaboration using Git, Agile &
+          Scrum methodologies. My goal is to continuously improve my technical
+          and analytical skills while contributing to innovative projects.
         </p>
         <div className="flex gap-5 flex-col sm:flex-row">
           <a href="#resume" className={style.a}>
